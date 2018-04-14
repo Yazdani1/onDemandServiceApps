@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "416191070435",
+    "firebase_url": "https://jobtoday-aa96b.firebaseio.com",
+    "project_id": "jobtoday-aa96b",
+    "storage_bucket": "jobtoday-aa96b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:416191070435:android:ff5fddec507c15bf",
+        "android_client_info": {
+          "package_name": "yazdaniscodelab.jobtoday"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "416191070435-2hthma2usbj7ugu2bljukduokoqjuok1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "yazdaniscodelab.jobtoday",
+            "certificate_hash": "8bbad294121d3334a8308fc20bd2791ea06aa9c3"
+          }
+        },
+        {
+          "client_id": "416191070435-5agfi18s6gbbr0nrv0bg2g0g3p33btjs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOAxAxwL1IPtL07LD2MvP0z1iYz8RiMjM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "416191070435-5agfi18s6gbbr0nrv0bg2g0g3p33btjs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

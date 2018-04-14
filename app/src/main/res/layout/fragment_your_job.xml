@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/backgroundcolor"
+    android:layout_height="match_parent"
+    tools:context="yazdaniscodelab.jobtoday.GetJobAllFunction.YourJobFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Key"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textColor="@android:color/black"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:id="@+id/key_xml"
+        />
+
+</LinearLayout>

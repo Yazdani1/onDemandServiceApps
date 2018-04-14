@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backgroundcolor"
+    android:layout_height="match_parent"
+    tools:context="yazdaniscodelab.jobtoday.GetJobAllFunction.ApplyJobDetailsActivity">
+
+    <include layout="@layout/toolbar"
+        android:id="@+id/applydetails_toolbar"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <!--Job Title..-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:gravity="center"
+                    android:layout_margin="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textColor="@android:color/white"
+                        android:layout_height="wrap_content"
+                        android:text="Job Title:"
+                        />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_margin="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textColor="@android:color/white"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/job_title_apply"
+                        android:text="Job Title:"
+                        />
+
+                </RelativeLayout>
+            </LinearLayout>
+
+            <!--Job Description..-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:gravity="center"
+                    android:layout_margin="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textColor="@android:color/white"
+                        android:layout_height="wrap_content"
+                        android:text="Description:"
+                        />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_margin="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textColor="@android:color/white"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/job_description_apply"
+                        android:text="Job Description:"
+                        />
+
+                </RelativeLayout>
+            </LinearLayout>
+
+            <!--Job Position-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:gravity="center"
+                    android:layout_margin="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textColor="@android:color/white"
+                        android:layout_height="wrap_content"
+                        android:text="Position:"
+                        />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_margin="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textColor="@android:color/white"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/job_Position_apply"
+                        android:text="Job Position:"
+                        />
+
+                </RelativeLayout>
+            </LinearLayout>
+
+            <!--Experience-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:gravity="center"
+                    android:layout_margin="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textColor="@android:color/white"
+                        android:layout_height="wrap_content"
+                        android:text="Experience:"
+                        />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_margin="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textColor="@android:color/white"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/job_Experience_apply"
+                        android:text="Job Experience:"
+                        />
+
+                </RelativeLayout>
+            </LinearLayout>
+
+            <!--Job Skills-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:gravity="center"
+                    android:layout_margin="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textColor="@android:color/white"
+                        android:layout_height="wrap_content"
+                        android:text="Skills:"
+                        />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_margin="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textColor="@android:color/white"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/job_Skills_apply"
+                        android:text="Job Skills:"
+                        />
+
+                </RelativeLayout>
+            </LinearLayout>
+
+            <!--Address-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:gravity="center"
+                    android:layout_margin="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textColor="@android:color/white"
+                        android:layout_height="wrap_content"
+                        android:text="Address:"
+                        />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_margin="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textColor="@android:color/white"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/job_Address_apply"
+                        android:text="Job Address:"
+                        />
+
+                </RelativeLayout>
+            </LinearLayout>
+
+            <!--Job Start-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:gravity="center"
+                    android:layout_margin="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textColor="@android:color/white"
+                        android:layout_height="wrap_content"
+                        android:text="Job Start:"
+                        />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_margin="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textColor="@android:color/white"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/job_start_apply"
+                        android:text="Job Start:"
+                        />
+
+                </RelativeLayout>
+            </LinearLayout>
+
+            <!--Job Contact-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:gravity="center"
+                    android:layout_margin="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textColor="@android:color/white"
+                        android:layout_height="wrap_content"
+                        android:text="Phone:"
+                        />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_margin="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textColor="@android:color/white"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/job_contact_apply"
+                        android:text="Job Contact:"
+                        />
+
+                </RelativeLayout>
+            </LinearLayout>
+
+            <!--Job Published-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:gravity="center"
+                    android:layout_margin="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textColor="@android:color/white"
+                        android:layout_height="wrap_content"
+                        android:text="Published:"
+                        />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_margin="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textColor="@android:color/white"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/job_PublishedDate_apply"
+                        android:text="Job Published:"
+                        />
+
+                </RelativeLayout>
+            </LinearLayout>
+
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:id="@+id/btn_applyjob_Apply"
+                android:text="Apply For Job"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@android:color/white"
+                android:background="@drawable/hirestaf_background"
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
